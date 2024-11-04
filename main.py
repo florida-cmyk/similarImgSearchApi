@@ -55,7 +55,7 @@ def api(url):
 
     features = []
     print(features)
-    input()
+    
     for i, image_path in enumerate(images):
         if i % 500 == 0:
             toc = time.perf_counter ()
